@@ -34,3 +34,7 @@ console.log(favourite_color);
 const password = user_firstname + user_lastname + favourite_color+"23"
 
 console.log(password);
+
+const messageElement = document.getElementById('message')
+
+messageElement.innerHTML = `La tua password è: ${password}`
