@@ -15,3 +15,17 @@ Esempio: cristinagiacobbepesca23 */
 //getElementById
 //innerHTML
 
+//Ask user his name
+const user_firstname = prompt("Type below you firstname please");
+
+console.log(user_firstname);
+
+//Ask user his lastname
+const user_lastname = prompt("Type below your lastname please");
+
+console.log(user_lastname);
+
+//Ask user his favourite color
+const favourite_color = prompt("Type below your favourite color please");
+
+console.log(favourite_color);
