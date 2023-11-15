@@ -29,3 +29,8 @@ console.log(user_lastname);
 const favourite_color = prompt("Type below your favourite color please");
 
 console.log(favourite_color);
+
+//generate password
+const password = user_firstname + user_lastname + favourite_color+"23"
+
+console.log(password);
